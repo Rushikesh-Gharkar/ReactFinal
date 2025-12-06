@@ -5,6 +5,7 @@ import {BrowserRouter, Routes, Route , Link, Outlet} from 'react-router-dom'
 import Login from './Components/Login'
 import UseRef from './Components/UseRef'
 import Rollup from './Components/RollUp'
+import Count from './Components/Count'
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
       </BrowserRouter> */}
       {/* <Login/> */}
         {/* <UseRef/> */}
-        <Rollup/>
+        {/* <Rollup/> */}
+        <Count/>
     </>
   )
 }
